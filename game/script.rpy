@@ -28,7 +28,7 @@ label start:
     "*BEEP* *BEEP* *BEEP*"
 
     "My eyes slowly open, and I realize that I was only dreaming. I then proceed to aggressively smash
-     the power button on the alarm clock as if it had eaten my favorite pudding."
+     the power button on the alarm clock as if it had just eaten my favorite pudding."
 
     p "Ugh. I really shouldn't have watched that much anime last night."
 
@@ -57,9 +57,6 @@ label start:
         "take the laundry schute":
             jump laundry_schute
 
-
-    # This ends the game.
-
     return
 
 label stairs:
@@ -68,9 +65,9 @@ label stairs:
 
     "While it may seem like this is my first time running late, it's actually quite the opposite."
 
-    "There is barely a day when I'm NOT running late."
+    "There's barely a day when I'm NOT running late."
 
-    "During those days (ie every day), the combination of the stairs and my seemingly-limitless stamina have always
+    "During those days (i.e. every day), the combination of the stairs and my seemingly-limitless stamina have always
      been my best friend."
 
     "Today is no different."
@@ -86,7 +83,7 @@ label stairs:
 
     "I run out the door in a triumphant manner, however there's no time for me to celebrate."
 
-    "My class is at 8:45. Currently, it's 8:34. Not too bad, except the distance to the lecture hall from my dorm is around 15 minutes by foot."
+    "My class is at 8:45. Currently, it's 8:37. Not too bad, except the distance to the lecture hall from my dorm is around 15 minutes by foot."
 
     "Well, if I walk. If I run, I should just barely make it."
 
@@ -161,11 +158,11 @@ label running:
 
     "I whip out my phone while I'm still in full sprint."
 
-    "'HEY! Class is about to start! Get your lazy ass over here already!'"
+    "'If you're not here in 3 minutes, I'm giving up your seat to the first pretty face that comes my way ;)."
 
     "It's a text from my best friend at DKU, Asher Clegg, whom I simply refer to as 'Clegg'. Mostly, because it's a much more interesting name than 'Asher.'"
 
-    p "Jeez Clegg I'm on my way dammit!"
+    p "Dammit Clegg..."
 
     "I end up rushing myself even further, almost breaking down in front of the lecture hall."
 
@@ -180,7 +177,7 @@ label magic1:
 
     c "Perfect timing. Mark's about to start. Are you okay? You seem winded AF."
 
-    p "Really? What gave it away? My sweat-drenched shirt? My red face? Maybe my irregular breathing. Or is it my near inability to speak? Oh waiiiiit it could be -"
+    p "*pant* Really? What gave it *pant* away? My sweat-drenched shirt? My red face? Maybe my irregular breathing. My near inability to *cough* speak? Oh waiiiiit it could be -"
 
     c "Yeah yeah I get it. Just get ready quickly, you know he doesn't start class until everyone stops talking."
 
@@ -207,7 +204,7 @@ label magic1:
      By contrast, the new rooms had very new projectors, whiteboards, and one side of the room (depending on which room you were in) had a large window showing
      the nice, bright outside."
 
-    "My issue there though, is that I loved the old rooms. The rooms were dark, making it easy for me to sleep during class. The technology may have been archaic,
+    "My issue there though, is that I loved the old rooms. The rooms were dark, making it easy for me to sleep during class. The technology may have been really old,
      but lots of experimentation went into the setup by various professors over the years ensured that they always worked seamlessly. Lastly, I prefer chalkboards over whiteboards."
 
     "This new room, however, was exactly the opposite. Whiteboards were used, which isn't really a big deal, but the technology malfunctions a lot because many professors
@@ -230,7 +227,7 @@ label magic1:
     c "Hey buddy...you okay?"
 
     "Everyone in the room stopped and stared at me. Well, everyone aside from Mark, who was still trying adorably
-     hard to read notes that he copied from the book himself."
+     hard to read notes that he wrote on the printouts himself."
 
     "I quickly sat back down and buried my head in my arms, too embarrased to even look upwards."
 
@@ -246,6 +243,8 @@ label magic1:
 label breakfast:
 
     #scene bg diner
+
+    scene bg diner1
 
     "Allow me to take this time to explain something else about DKU."
 
@@ -304,7 +303,27 @@ label breakfast:
     "He isn't wrong. Clegg knows just as much about CS as I do, despite me having taken a number of courses on the subject from a
     top rate university."
 
-    c "So, what other classes do you have today? "
+    c "So, what other classes do you have today?"
+
+    p "Pretty sure I have algorithms at 12. After that I'm done for the day."
+
+    c "Algorithms huh? Sounds like a really fun time. What are you guys talking about?"
+
+    p "Gee, I don't know Clegg. Maybe...algorithms? I can see how you'd be confused with such an ambiguous name like 'algorithms.'"
+
+    c "You're really just a peach, you know that?"
+
+    p "I try Clegg, I really do."
+
+    c "Okay, snarky exchanges aside, I meant what algorithms in PARTICULAR do you think you'll be talking about today?"
+
+    p "Let's see...we talked about MergeSort last week, so I think B-Trees today."
+
+    c "Oh, have fun with that *rolls eyes*."
+
+    p "What's wrong with B-Trees?"
+
+    c "You'll see what I mean when you get there."
 
 
     return
